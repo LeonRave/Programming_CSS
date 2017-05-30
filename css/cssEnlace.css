@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main{
+	margin: 0 auto;
+	width:80%;
+	position: relative;
+	float: center;
+}
+
+.enlaces{
+	width:100%;
+	background: pink;
+	float: left;
+	text-align: center;
+}
+
+.e{
+	font-size: 1vw;
+	text-decoration: none;
+	display: inline-block;
+	padding:1vw 1vw;
+	margin: 0 .3vw .3vw .3vw;
+	box-shadow: 1vw 1vw 3px black;
+}
+
+.e:visited{
+	background: blue;
+	color:white;
+}
+
+.e:link{
+	background: green;
+	color:white;
+}
+
+.e:hover{
+	background: black;
+	color:white;
+	/*box-shadow: 2px 2px 2px black;*/
+}
+
+.e:active{
+	background: red;
+	color:yellow;
+}
+
+.cajaImg{
+	width:100%;
+	background: gray;
+	float: left;
+}
+
+img{
+	width:30%;
+	height:auto;
+	margin:auto;
+	display:block;
+	border-radius:50%;
+	/*box-shadow:3px 3px 0px #424242;*/
+	padding:1%;
+	border: 1px solid #000;
+}
+
+.cajaLista{
+	width:100%;
+	background: black;
+	float: left;
+	text-align: center;
+}
+
+/*ol{
+	list-style-type:upper-alpha;
+}*/
+
+.menu{
+	list-style: none;
+	margin 0;
+	padding 0;
+}
+
+.menu li{
+	display:inline-block;
+}
+
+.menu li a{
+	padding:1vw 1vw;
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+	font-size: 1.5vw;
+}
+
+.menu li a:hover{
+	background: gray;
+	color:black;
+}
+
+.tabla{
+	width:100%;
+	background: green;
+	float: left;
+	text-align: center;
+}
+
+.tabla table{
+	border-collapse:collapse;
+	background:white;
+}
+
+.tabla table td{
+	font-size: 1.5vw;
+	border:.2vw solid;
+	padding: 1vw;
+}
+
+.tabla table tr:hover{
+	background:gray;
+}
+
+.tabla table td:hover{
+	background:black;
+	color:white;
+}
+

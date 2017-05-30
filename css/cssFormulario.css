@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main{
+	margin: 0 auto;
+	width:80%;
+	position: relative;
+	float: center;
+}
+
+.formulario{
+	width:100%;
+	background: gray;
+	float: left;
+}
+
+form{
+	background: pink;
+	width:40%;
+	border:.3vw;
+	/*margin:20px;*/
+	padding:1vw;
+}
+
+label{
+	display:block;
+}

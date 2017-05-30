@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:red;
+	font-size:20px;
+}
+
+p a{
+	color:red;
+	font-size:20px;
+}
+
+.parrafo{
+	color:green;
+}
+
+a[href="http://www.google.com.mx"]{
+	color:black;
+}
+
+p{
+	color:rgba(0,0,0,.5);
+	
+}
+
