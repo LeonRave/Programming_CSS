@@ -27,3 +27,35 @@ form{
 label{
 	display:block;
 }
+
+textarea{
+	resize:vertical;
+	max-height:10vw;
+	min-height:3vw;
+}
+
+input, textarea{
+	margin-bottom: 1vw;
+	width: 80%;
+	padding: .2vw;
+	box-sizing:content-box;
+	border:.1vw solid gray;
+}
+
+input:focus, textarea:focus{
+	border:.2vw solid #1668c4;
+}
+
+input[type="submit"]{
+	margin-bottom: 0;
+	background:#1668c4;
+	color:white;
+	border:none;
+}
+
+input[type="submit"]:hover{
+	background:#4a88f4;
+	cursor:pointer;
+}
+
+
